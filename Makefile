@@ -2,7 +2,7 @@ CXX = g++
 TARGET = pigeon-hill-range-status
 SOURCE = pigeon-hill-range-status.cpp
 INSTALL_DIR = $(HOME)/.local/bin
-APP_ID = com.github.scramble45.PigeonHillRangeStatus
+APP_ID = io.github.scramble45.PigeonHillRangeStatus
 
 # Qt6 settings with proper linking flags
 CXXFLAGS = -std=c++17 -Wall -O2 -fPIC $(shell pkg-config --cflags Qt6Core Qt6Widgets Qt6Network)

@@ -4,7 +4,7 @@
 
 A lightweight Qt6 system tray application that monitors the shooting range status at Pigeon Hill Conservation Area in Missouri.
 
-![Pigeon Hill Range Status Icon](com.github.scramble45.PigeonHillRangeStatus.svg)
+![Pigeon Hill Range Status Icon](io.github.scramble45.PigeonHillRangeStatus.svg)
 
 ## Features
 - 🟢 **Green Circle with Checkmark** - Range is OPEN
@@ -22,10 +22,10 @@ A lightweight Qt6 system tray application that monitors the shooting range statu
 
 ```bash
 # Install from Flathub (when published)
-flatpak install flathub com.github.scramble45.PigeonHillRangeStatus
+flatpak install flathub io.github.scramble45.PigeonHillRangeStatus
 
 # Run the application
-flatpak run com.github.scramble45.PigeonHillRangeStatus
+flatpak run io.github.scramble45.PigeonHillRangeStatus
 ```
 
 ### Option 2: Build from Source

@@ -39,3 +39,4 @@ pigeon-hill-range-status
 .flatpak-builder
 build-dir
 repo
+*.tar.gz

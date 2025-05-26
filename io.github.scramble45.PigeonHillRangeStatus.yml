@@ -1,4 +1,4 @@
-app-id: com.github.scramble45.PigeonHillRangeStatus
+app-id: io.github.scramble45.PigeonHillRangeStatus
 runtime: org.kde.Platform
 runtime-version: '6.8'
 sdk: org.kde.Sdk
@@ -31,9 +31,9 @@ modules:
           $(pkg-config --libs Qt6Core Qt6Widgets Qt6Network)
       # Install files
       - install -D pigeon-hill-range-status /app/bin/pigeon-hill-range-status
-      - install -D com.github.scramble45.PigeonHillRangeStatus.desktop /app/share/applications/com.github.scramble45.PigeonHillRangeStatus.desktop
-      - install -D com.github.scramble45.PigeonHillRangeStatus.appdata.xml /app/share/metainfo/com.github.scramble45.PigeonHillRangeStatus.appdata.xml
-      - install -D com.github.scramble45.PigeonHillRangeStatus.svg /app/share/icons/hicolor/scalable/apps/com.github.scramble45.PigeonHillRangeStatus.svg
+      - install -D io.github.scramble45.PigeonHillRangeStatus.desktop /app/share/applications/io.github.scramble45.PigeonHillRangeStatus.desktop
+      - install -D io.github.scramble45.PigeonHillRangeStatus.appdata.xml /app/share/metainfo/io.github.scramble45.PigeonHillRangeStatus.appdata.xml
+      - install -D io.github.scramble45.PigeonHillRangeStatus.svg /app/share/icons/hicolor/scalable/apps/io.github.scramble45.PigeonHillRangeStatus.svg
     sources:
       - type: archive
         url: https://github.com/scramble45/pigeon-hill-range-status/archive/refs/tags/v1.0.0.tar.gz
