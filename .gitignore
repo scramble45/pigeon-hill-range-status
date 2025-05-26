@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+pigeon-hill-range-status
+
+# Moc
+*.moc
+
+# Flatpak
+.flatpak-builder
+build-dir
+repo
